@@ -47,3 +47,21 @@
     object-fit: contain;
     scroll-snap-align: center;
 }
+
+body::-webkit-scrollbar {
+    width: 0;
+}
+
+.scrollbar::-webkit-scrollbar {
+    height: 10px;
+    margin-top: 10px;
+}
+  
+.scrollbar::-webkit-scrollbar-thumb {
+    background-color: #888; /* Color del "pulgar" de la barra */
+    border-radius: 5px; /* Radio de borde del "pulgar" */
+}
+  
+.scrollbar::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* Color de fondo de la barra */
+}
